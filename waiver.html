@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liability Waiver - Cooper Canines LLC</title>
+    <style>
+        :root {
+            --primary: #009100;
+            --primary-hover: #007300;
+            --text-dark: #2c3e50;
+            --bg-light: #f8f9fa;
+            --border-color: #cccccc;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: Arial, sans-serif;
+            color: var(--text-dark);
+            background-color: var(--bg-light);
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        .container {
+            flex: 1 0 auto;
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+            box-sizing: border-box;
+        }
+
+        /* Top Back to Home Button Container */
+        .top-nav {
+            margin-bottom: 1.5rem;
+        }
+
+        .back-home-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            background-color: #ffffff;
+            color: var(--primary);
+            border: 2px solid var(--primary);
+            padding: 0.6rem 1.2rem;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 0.95rem;
+            transition: all 0.2s ease;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+
+        .back-home-btn:hover {
+            background-color: var(--primary);
+            color: #ffffff;
+        }
+
+        h1 {
+            text-align: center;
+            color: var(--primary);
+            margin-bottom: 1.5rem;
+        }
+
+        .main-waiver {
+            background-color: #ffffff;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            line-height: 1.6;
+            margin-bottom: 2rem;
+            font-size: 1rem;
+        }
+
+        .scroll-box {
+            height: 350px;
+            overflow-y: scroll;
+            border: 1px solid var(--border-color);
+            background-color: #ffffff;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: inset 0 1px 3px rgba(0,0,0,0.1);
+            line-height: 1.5;
+            font-size: 0.95rem;
+        }
+
+        .scroll-box h3 {
+            margin-top: 1.5rem;
+            margin-bottom: 0.5rem;
+            color: var(--primary);
+            border-bottom: 1px solid #eee;
+            padding-bottom: 0.25rem;
+        }
+
+        .scroll-box h3:first-of-type {
+            margin-top: 1rem;
+        }
+
+        .scroll-box p {
+            margin-top: 0.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .trainer-info {
+            background-color: #f1f8f1;
+            padding: 1rem;
+            border-left: 4px solid var(--primary);
+            margin-bottom: 1.5rem;
+        }
+
+        .trainer-info p {
+            margin: 0.3rem 0;
+        }
+
+        /* Floating Scroll to Top Button */
+        .scroll-top-btn {
+            position: fixed;
+            bottom: 25px;
+            right: 25px;
+            background-color: var(--primary);
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 48px;
+            height: 48px;
+            font-size: 1.2rem;
+            cursor: pointer;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+            display: none;
+            align-items: center;
+            justify-content: center;
+            z-index: 1000;
+            text-decoration: none;
+            transition: background-color 0.2s ease, transform 0.2s ease;
+        }
+
+        .scroll-top-btn:hover {
+            background-color: var(--primary-hover);
+            transform: translateY(-3px);
+        }
+
+        .scroll-top-btn:active {
+            transform: scale(0.95);
+        }
+
+        /* Empty Footer for Spacing */
+        footer {
+            height: 4rem;
+            width: 100%;
+            margin-top: auto;
+        }
+    </style>
+</head>
+<body id="top">
+
+    <div class="container">
+        <!-- Back to Home Page Button -->
+        <div class="top-nav">
+            <a href="https://coopercanines.com" class="back-home-btn">
+                &larr; Back to Website
+            </a>
+        </div>
+
+        <h1>Liability Waiver</h1>
+
+        <!-- Main Intro Text -->
+        <div class="main-waiver">
+            <p>I, the dog owner or handler identified below (“Client”), enter into this Waiver and Agreement with Cooper Canines LLC, including its owners, employees, contractors, agents, and representatives (collectively referred to as the “Trainer”). By signing this Agreement, I acknowledge that dog training involves inherent risks and I voluntarily assume those risks. I agree to release the Trainer from any and all claims, liabilities, damages, or expenses arising out of or related to my participation in training services provided by Cooper Canines LLC. I understand that the Trainer has the right to refuse service to me and/or my dog(s) at any time for any reason. I assert that I am the legal owner or have full authority from the legal owner of the dog(s) for which the services are being provided. I authorize the Trainer to take any reasonable measures necessary to ensure my dog’s safety, health, and welfare while under the care of Cooper Canines LLC. I acknowledge that my signed acceptance of all applicable terms is required before services can begin.</p>
+        </div>
+
+        <!-- Scrollable Section -->
+        <div class="scroll-box">
+            <div class="trainer-info">
+                <p><strong>Last Updated:</strong> March 2026</p>
+                <p><strong>Trainer:</strong> Daniel Weissberg</p>
+                <p><strong>Phone:</strong> (856) 433-1259</p>
+                <p><strong>Email:</strong> Dan@CooperCanines.com</p>
+            </div>
+
+            <h3>Clause 1. Release of Liability</h3>
+            <p>The Client acknowledges that participation in dog training sessions involves inherent risks, including but not limited to: dog bites, scratches, injury to persons or property, and unpredictable animal behavior. The Client voluntarily assumes all risks associated with participation in training sessions, classes, provided materials, or related activities provided by the Trainer. The Client understands that dog behavior is inherently unpredictable and that even well-trained dogs may react unexpectedly. In consideration of the services provided, the Client agrees to release, indemnify, defend, and hold harmless the Trainer from any and all claims, demands, causes of action, damages, or liabilities of any kind, whether known or unknown, arising out of or connected in any way to participation in dog training services, including but not limited to injury or damage caused by the Client's dog, other dogs, or third parties.</p>
+
+            <h3>Clause 2. Veterinary Care</h3>
+            <p>The Client certifies that their dog(s) are up to date on vaccinations as required by both state and local laws, including but not limited to rabies vaccination. The Client agrees to provide proof of vaccinations upon request and confirms their dog(s) are free of contagious conditions. The Client accepts full responsibility for any veterinary expenses resulting from injury to the Client's dog or caused by the Client's dog during training. The Trainer is authorized to seek veterinary care, if the Client or Emergency Contact cannot be reached, for the Client's dog if deemed necessary, and the Client agrees to reimburse all related costs. The Trainer reserves the right to refuse or discontinue services if a dog’s health status presents a risk.</p>
+
+            <h3>Clause 3. Owner/Handler Responsibility</h3>
+            <p>The Client is responsible for their dog’s behavior and safety. The Client agrees to provide complete and accurate disclosure of behavioral history and prior training experiences. Failure to disclose relevant behavioral history may impact safety and effectiveness and may result in suspension or termination of services. The Client also warrants that the location where training will occur is safe and secure. The Trainer is not responsible for injury, damage, or loss resulting from the conditions or layout of the premises.</p>
+
+            <h3>Clause 4. Limitations of Guarantee & Scope of Services</h3>
+            <p>The Trainer makes no claims or guarantees (expressed or implied) regarding the dog’s behavior, performance, or response to training. Specific service type, location, duration, materials, and objectives will be agreed upon verbally or in writing. The Client understands that the services provided are instructional and advisory in nature. Successful outcomes are heavily dependent upon the Client’s consistent effort, participation, and adherence to the Trainer’s instructions and protocols.</p>
+
+            <h3>Clause 5. Trainer’s Right to Refer</h3>
+            <p>The Trainer may recommend referral to another professional (such as a veterinarian or behavior specialist) if the dog’s behavioral or medical needs exceed the scope of services provided. The Client agrees to assume all responsibility for the cost of any recommended third-party services.</p>
+
+            <h3>Clause 6. Severability & Governing Law</h3>
+            <p>If any provision of this agreement is found unenforceable, the remaining provisions shall remain in full force and effect. The Client agrees that any legal action arising from this Agreement shall be brought exclusively in the courts of New Jersey, regardless of where the training services were performed.</p>
+
+            <h3>Clause 7. Privacy</h3>
+            <p>The Client’s personal information will be used only for scheduling, verification, and training purposes and will not be shared with third parties without consent, except as required by law.</p>
+
+            <h3>Clause 8. Payment & Refunds</h3>
+            <p>Payment for training services is due at the time of registration or as otherwise agreed in writing. The Client acknowledges that invoices, receipts, or statements for services rendered may be provided electronically or in another format at the Trainer’s discretion, and agrees to review all billing communications and notify the Trainer promptly of any discrepancies.</p>
+            <p>Clients who pay by credit card, PayPal, Venmo, or other electronic payment services (excluding debit) may be charged a processing fee of up to 2% or the maximum amount permitted by law. This surcharge, if applied, will be disclosed prior to payment and is non-refundable. A $35 fee will be charged for any returned or failed payments. Services may be suspended or terminated for late or unpaid balances.</p>
+            <p>All payments, including individual sessions and training packages, are non-refundable once the first scheduled session has commenced. Cancellations made more than 48 hours prior to the first scheduled session may be eligible for a partial refund, less administrative fees. Missed or unused sessions are non-refundable. Training packages must be used within the agreed time frame or they will expire without refund. Training sessions and packages are non-transferable to other individuals or dogs.</p>
+            <p>The Client acknowledges that training rates may vary depending on location. Sessions outside the Cooper Canines LLC’s primary service area may include an additional charge to offset travel expenses. Rates may also change based on the complexity, duration, or difficulty of the training task. Sessions conducted in public spaces may include an additional fee to cover permits, access, or travel, which will be disclosed prior to scheduling. The Trainer reserves the right to modify or discontinue promotional programs at any time without prior notice.</p>
+
+            <h3>Clause 9. Scheduling & Cancellation</h3>
+            <p>Training sessions are scheduled by mutual agreement between Client and Trainer. Clients must provide at least 24 hours’ notice to cancel or reschedule a session; sessions canceled with less notice may be forfeited at Trainer’s discretion. The Trainer reserves the right to reschedule sessions for emergencies, weather, or other unforeseen circumstances and is not liable for delays or failure to perform services due to events beyond reasonable control, including severe weather, illness, natural disasters, or government actions.</p>
+            <p>Clients are encouraged to attend all scheduled training sessions. If a session must be missed, clients may request a make-up session, subject to the Trainer’s availability, but make-up sessions are not guaranteed. Trainer may, at their sole discretion, offer a make-up session or credit for unforeseen circumstances. Excessive cancellations or no-shows may result in suspension or termination of services.</p>
+            <p>All training packages must be used within six (6) months from the date of purchase, unless otherwise agreed in writing. Unused sessions after this period will expire without refund.</p>
+
+            <h3>Clause 10. Media Release and Use of Likeness</h3>
+            <p>The Client acknowledges that training sessions may be photographed, recorded, or filmed by the Trainer for educational, documentation, safety, promotional, marketing, or training purposes. The Client grants Cooper Canines LLC the unrestricted right and permission to use such media of the Client and/or the Client’s dog in any media format now known or later developed, without compensation, subject to the media preference indicated by the Client in this Agreement. The Client waives any right to inspect or approve the finished product or any media in which their or their dog’s likeness appears. The Client releases the Trainer and its owners, employees, contractors, agents, and representatives from any and all claims or liabilities arising out of or related to the use of such media. This consent may be revoked in writing for media not yet created only and shall not apply to any media previously created, used, or published.</p>
+        </div>
+    </div>
+
+    <!-- Referral Program Section -->
+    <section style="background-color: #ffffff; border: 1px solid #cccccc; border-radius: 8px; padding: 1.5rem; max-width: 800px; margin: 1.5rem auto; box-shadow: 0 2px 5px rgba(0,0,0,0.05); font-family: Arial, sans-serif; color: #2c3e50;">
+        <h3 style="color: #009100; margin-top: 0; margin-bottom: 0.75rem; border-bottom: 1px solid #eee; padding-bottom: 0.5rem; font-size: 1.25rem;">
+            Referral Program
+        </h3>
+        <p style="font-weight: bold; margin-bottom: 1rem; line-height: 1.5;">
+            Earn rewards when you tell your friends and family about Cooper Canines LLC!
+        </p>
+
+        <p style="margin: 0.5rem 0;">
+            <strong>Reward:</strong> Existing clients who refer a new client can receive up to $25 in service credits or gift cards. Referred new clients may also receive up to $25 off their training services or a $25 gift card.
+        </p>
+
+        <p style="margin: 0.5rem 0;">
+            <strong>Eligibility Requirement:</strong> The referred client must purchase a training package or complete a minimum of three (3) paid training sessions.
+        </p>
+
+        <p style="margin: 0.5rem 0;">
+            <strong>How to Claim:</strong> The new client must enter the referring client's name in the Referral section of their Client Intake Form at initial booking and the Trainer must be informed.
+        </p>
+
+        <p style="margin: 0.5rem 0;">
+            <strong>Program Terms:</strong> Applies to new clients only and cannot be combined with other offers or discounts. Issued at the Trainer's sole discretion via account credit, gift certificates, or a combination thereof. The Trainer reserves the right to modify or end promotional programs at any time without prior notice.
+        </p>
+    </section>
+
+    <!-- Floating Scroll To Top Button -->
+    <a href="#top" id="scrollTopBtn" class="scroll-top-btn" aria-label="Scroll to top" title="Scroll to top">
+        ▲
+    </a>
+
+    <!-- Empty Footer for Bottom Spacing -->
+    <footer><br><br><br></footer>
+
+    <script>
+        const scrollTopBtn = document.getElementById('scrollTopBtn');
+
+        // Display scroll-to-top button when scrolling down 300px
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 300) {
+                scrollTopBtn.style.display = 'flex';
+            } else {
+                scrollTopBtn.style.display = 'none';
+            }
+        });
+    </script>
+
+</body>
+</html>
